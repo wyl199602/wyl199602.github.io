@@ -86,13 +86,13 @@ function activateLightMode(){
 </blockquote>
 <h1 id="关于hexo编写中的常用技法"><a href="#关于hexo编写中的常用技法" class="headerlink" title="关于hexo编写中的常用技法"></a>关于hexo编写中的常用技法</h1><a id="more"></a>
 <h2 id="一、创建文章"><a href="#一、创建文章" class="headerlink" title="一、创建文章"></a>一、创建文章</h2><p>在hexo文件夹中使用命令创建文章， “title”为文章标题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
 <p>在hexo文件夹中 source/_post 下自动生成一个名为 “title.md” 的文件，这个文件就是即将要发布到网站上的原始文件。</p>
 <p><em>.md文件为Machine Description文件，可用支持Markdown的文本编译器打开</em></p>
 <h2 id="二、模板高级设置"><a href="#二、模板高级设置" class="headerlink" title="二、模板高级设置"></a>二、模板高级设置</h2><h3 id="1-模板设置"><a href="#1-模板设置" class="headerlink" title="(1)模板设置"></a>(1)模板设置</h3><p>当我们使用 hexo new “title” 创建文章的时候，Hexo会根据 <strong>/scaffolds/post.md</strong>对新文章进行初始化。</p>
 <p>换言之，/scaffolds/post.md 就是新文章的 模板，所以我们可以修改它来适应自己的写作习惯。</p>
 <p>比如我在Saffolds下创建了一个algorithm.md模板，可以使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new algorithm &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new algorithm &quot;title&quot;</span><br></pre></td></tr></table></figure>
 <p>创建一个新文章页面，并且具有algorithm.md的样式。</p>
 <!-- ### (2)头部设置 -->
 
